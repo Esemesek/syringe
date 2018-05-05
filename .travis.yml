@@ -1,4 +1,4 @@
 language: node_js
-script: make check
+script: make ci
 node_js:
   - "node"
