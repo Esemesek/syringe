@@ -13,7 +13,7 @@ afterEach(() => {
 });
 
 it('should inject existing component', () => {
-  componentContainer.components[COMPONENT_NAME] = COMPONENT;
+  (componentContainer.components: any)[COMPONENT_NAME] = COMPONENT;
 
   class Component {
     @Inject(COMPONENT_NAME)
@@ -25,7 +25,7 @@ it('should inject existing component', () => {
 
 it('should throw error for not existent component', () => {
   expect(() => {
-    class Component {
+    class Component { // eslint-disable-line no-unused-vars
       @Inject(COMPONENT_NAME)
       component;
     }
