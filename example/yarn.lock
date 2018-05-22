@@ -2431,8 +2431,9 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-"syringe@file:..":
-  version "1.0.0"
+syringe-ioc@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/syringe-ioc/-/syringe-ioc-0.0.1.tgz#1485ef05d7c1a07d4403c620d495b800908c08c4"
   dependencies:
     glob "^7.1.2"
 

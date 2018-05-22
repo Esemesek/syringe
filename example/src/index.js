@@ -1,4 +1,4 @@
-import { Bootstrap, Injector } from 'syringe';
+import { Bootstrap, Injector } from 'syringe-ioc';
 import path from 'path';
 import express from 'express';
 

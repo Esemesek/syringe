@@ -1,4 +1,4 @@
-import { Component } from 'syringe';
+import { Component } from 'syringe-ioc';
 import express from 'express';
 
 @Component({

@@ -1,5 +1,5 @@
 import express from 'express';
-import { Component } from 'syringe';
+import { Component } from 'syringe-ioc';
 
 @Component({
   name: 'MainRouter',
