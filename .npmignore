@@ -4,3 +4,9 @@ rollup.config.js
 tsconfig.js
 yarn.lock
 README.md
+coverage
+flow-typed
+.eslintrc
+.flowconfig
+.travis.yml
+Makefile
