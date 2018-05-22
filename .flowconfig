@@ -7,8 +7,6 @@
 src
 
 [libs]
-lib/bundle.umd.js
-lib/bundle.umd.js.map
 
 [lints]
 
