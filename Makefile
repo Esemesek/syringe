@@ -17,6 +17,11 @@ test-coverage:
 	@echo "$(TAG) test-coverage"
 	@$(BIN_DIR)/jest --coverage
 
+codecov:
+	@echo "$(TAG) codecov"
+	@$(MAKE) test-coverage
+	@$(BIN_DIR)/codecov
+
 clean-all:
 	@echo "$(TAG) clean-all"
 	@$(MAKE) clean
@@ -49,4 +54,4 @@ ci:
 	@$(MAKE) lint
 	@$(MAKE) flow-lib
 	@$(MAKE) flow
-	@$(MAKE) test-coverage
+	@$(MAKE) codecov
