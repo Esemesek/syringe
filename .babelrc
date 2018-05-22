@@ -2,6 +2,6 @@
   "presets": [
     "@babel/preset-flow",
     "@babel/preset-env",
-    ["@babel/preset-stage-2", { "decoratorsLegacy": true }]
+    ["@babel/preset-stage-2", { "decoratorsLegacy": true, "loose": true }]
   ]
 }
