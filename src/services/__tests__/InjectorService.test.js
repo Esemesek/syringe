@@ -13,7 +13,7 @@ afterEach(() => {
 });
 
 it('should get components from container', () => {
-  componentContainer.components[COMPONENT_NAME] = COMPONENT;
+  (componentContainer.components: any)[COMPONENT_NAME] = COMPONENT;
 
   expect(InjectorService.get(COMPONENT_NAME)).toEqual(COMPONENT);
 });
